@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /margin: 15%;
+    margin: 15%;
 }
 
 #main-container form {
@@ -22,7 +22,7 @@
 
 #main-container form button{
     height: 48px;
-    background: #7159c1;
+    background: #111;
     border-radius: 4px;
     font-size: 16px;
     padding: 0 20px;
