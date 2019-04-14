@@ -28,7 +28,7 @@ export default class Main extends Component {
                 <img src={logo} alt=""/>
                 <input
                  placeholder="Create a Box"
-                 value={ this.state.nesBox}
+                 value={ this.state.newBox}
                  onChange={this.handleInputChange} 
                  />
                 <button type="submit">Create</button>

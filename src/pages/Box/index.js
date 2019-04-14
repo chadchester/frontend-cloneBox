@@ -25,7 +25,7 @@ export default class Box extends Component {
         io.emit('connectRoom', box);
         io.on('file', data => {
             this.setState({ 
-            box: { ...this.state.box,files:[data, ...this.state.box.files]} 
+            box: { ...this.state.box, files: [data, ...this.state.box.files]} 
             });
         });
 
@@ -65,9 +65,9 @@ export default class Box extends Component {
                      <MdInsertDriveFile size={24} color="#A5Cfff" />
                      <strong> {file.title} </strong>
                   </a>
-                  <span>Since {" "}{distanceInWords(file.createdAt, new Date(), {
-                      locate: en
-                  })}</span>
+                  <span>Since{" "} {distanceInWords(file.createdAt, new Date(), {
+                      locate: en})}
+                      </span>
              </li>        
             ))}
            
